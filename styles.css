@@ -7,12 +7,19 @@ html, body
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height:100vh;
     background-color: black;
+    padding-top:8px;
 }
-
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color: black;
+    align-self: flex-start;
+    margin:8px;
+}
 .changeSize
 {
     margin-bottom: 16px;
