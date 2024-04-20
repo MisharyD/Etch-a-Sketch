@@ -3,11 +3,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
+}
+.grid-container
+{
+    display:flex;
+    flex-direction: column;
 }
 
+.row
+{
+    display: flex;
+}
 .box
 {
     border: 1px solid white;
     background-color: black;
-    flex:1 1 auto;
+    flex:1 0 auto;
 }
